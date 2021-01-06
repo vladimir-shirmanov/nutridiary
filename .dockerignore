@@ -1,0 +1,5 @@
+bin/
+obj/
+NutriDiary.Web/ClientApp/dist
+NutriDiary.Web/ClientApp/nutri-diary/node_modules
+NutriDiary.Web/ClientApp/nutri-diary/npm-debug.log
