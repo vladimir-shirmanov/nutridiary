@@ -1,0 +1,39 @@
+<footer class="footer">
+  <div class="container--fluid">
+    <div class="container__row">
+      <div class="container__col-sm-12 container__col-md-3 container__col-3">
+        <div class="label">
+          Need help? Call us
+          <br>
+          Monday-Friday 08:00 - 16:00
+        </div>
+        <div class="link-tel">
+          <a href="tel:0800123456">(080)012-3456</a>
+        </div>
+      </div>
+      <div class="container__col-sm-12 container__col-md-6 container__col-6 ta-center">
+        <ul class="footer__nav">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+
+        <img src="assets/images/good-luck.svg" alt="Good luck" class="good-luck">
+      </div>
+      <div class="container__col-sm-12 container__col-md-3 container__col-3">
+        <div class="label">
+          Get secret notes
+        </div>
+        <div class="input">
+          <form action="">
+            <mat-form-field appearance="fill">
+              <mat-label>Enter your email</mat-label>
+              <input matInput required [formControl]="email">
+              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

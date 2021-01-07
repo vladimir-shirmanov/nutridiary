@@ -1,0 +1,26 @@
+@import '~@angular/material/theming';
+
+$grid__bp-sm: 576;
+$grid__bp-md: 768;
+$grid__bp-lg: 992;
+$grid__bp-xl: 1200;
+$grid__cols: 12;
+
+$map-grid-props: (
+  '': 0,
+  '-sm': $grid__bp-sm,
+  '-md': $grid__bp-md,
+  '-lg': $grid__bp-lg,
+  '-xl': $grid__bp-xl);
+
+// Copy the palettes from your selected theme (usually theme.scss).
+$app-primary: mat-palette($mat-grey);
+$app-accent:  mat-palette($mat-deep-purple);
+$app-warn:    mat-palette($mat-green);
+
+// Create your Sass color vars (will be available in all the project)
+$primary_dark: mat-color($app-primary, 900);
+$primary: mat-color($app-primary);
+$accent: mat-color($app-accent);
+$accent_light: mat-color($app-accent, 200);
+$warn: mat-color($app-warn);

@@ -6,6 +6,11 @@
 
     <ItemGroup>
       <Folder Include="ClientApp" />
+      <Folder Include="ClientApp\nutri-diary\src\app\core\services" />
+      <Folder Include="ClientApp\nutri-diary\src\app\shared\components" />
+      <Folder Include="ClientApp\nutri-diary\src\app\shared\services" />
+      <Folder Include="ClientApp\nutri-diary\src\styles\pages" />
+      <Folder Include="ClientApp\nutri-diary\src\styles\themes" />
     </ItemGroup>
 
     <ItemGroup>
