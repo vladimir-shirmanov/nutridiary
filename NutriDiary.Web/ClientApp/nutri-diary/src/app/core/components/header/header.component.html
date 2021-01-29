@@ -1,3 +1,14 @@
 <mat-toolbar>
   <span>NutriDiary</span>
+  <span class="spacer"></span>
+  <div *ngIf="isLoggedIn$ | async">
+    <button mat-flat-button color="primary" routerLinkActive="active" routerLink="home">Home</button>
+    <button mat-flat-button color="primary" routerLinkActive="active" routerLink="admin">Admin</button>
+    <button mat-flat-button color="primary" (click)="logout()">Log out</button>
+  </div>
+
+  <div *ngIf="!(isLoggedIn$ | async)">
+    <button mat-flat-button color="primary" routerLinkActive="active" (click)="login()">Sign in</button>
+    <button mat-flat-button color="primary" routerLinkActive="active" routerLink="signup">Sign up</button>
+  </div>
 </mat-toolbar>

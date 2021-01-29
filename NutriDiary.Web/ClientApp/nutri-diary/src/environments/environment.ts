@@ -2,9 +2,22 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+import {UserManagerSettings} from "oidc-client";
+
 export const environment = {
   production: false
 };
+
+export const oidcSettings: UserManagerSettings = {
+  authority: "https://localhost:5002",
+  client_id: "angular_spa",
+  redirect_uri: "https://localhost:5001/auth-callback",
+  response_type: "code",
+  scope: "openid profile api1",
+  post_logout_redirect_uri: "https://localhost:5001",
+  filterProtocolClaims: true,
+  loadUserInfo: true
+}
 
 /*
  * For easier debugging in development mode, you can import the following file

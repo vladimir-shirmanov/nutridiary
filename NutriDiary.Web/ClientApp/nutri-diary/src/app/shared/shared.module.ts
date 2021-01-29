@@ -3,24 +3,27 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
+import { SpinnerComponent } from './components/spinner/spinner.component';
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [SpinnerComponent],
   imports: [
-    CommonModule,
     FormsModule,
     ReactiveFormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatProgressSpinnerModule,
+    CommonModule
   ],
-  exports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,
-    MatInputModule
-  ]
+    exports: [
+        FormsModule,
+        ReactiveFormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        SpinnerComponent
+    ]
 })
 export class SharedModule { }

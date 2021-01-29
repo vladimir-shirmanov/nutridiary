@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "nutri-diary"
+  "defaultProject": "nutri-diary",
+  "cli": {
+    "defaultCollection": "@datorama/akita"
+  }
 }

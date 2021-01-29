@@ -14,9 +14,9 @@ $map-grid-props: (
   '-xl': $grid__bp-xl);
 
 // Copy the palettes from your selected theme (usually theme.scss).
-$app-primary: mat-palette($mat-grey);
-$app-accent:  mat-palette($mat-deep-purple);
-$app-warn:    mat-palette($mat-green);
+$app-primary: mat-palette($mat-light-green);
+$app-accent:  mat-palette($mat-indigo);
+$app-warn:    mat-palette($mat-deep-orange, A200);
 
 // Create your Sass color vars (will be available in all the project)
 $primary_dark: mat-color($app-primary, 900);

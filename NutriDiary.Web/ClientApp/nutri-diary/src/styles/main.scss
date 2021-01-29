@@ -7,3 +7,10 @@
 
 @import "components/footer";
 @import "components/content";
+
+@import "~@angular/material/theming";
+@include mat-core();
+@import "theme.scss";
+.my-theme {
+  @include angular-material-theme($my-theme)
+}

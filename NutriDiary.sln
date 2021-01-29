@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriDiary.Web", "NutriDiary.Web\NutriDiary.Web.csproj", "{EACA3CA8-3FB5-414F-A98C-991A3F58C30E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriDiary.Identity", "NutriDiary.Identity\NutriDiary.Identity.csproj", "{527196A7-9680-42D3-8C67-44AEFD282C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{EACA3CA8-3FB5-414F-A98C-991A3F58C30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACA3CA8-3FB5-414F-A98C-991A3F58C30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACA3CA8-3FB5-414F-A98C-991A3F58C30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527196A7-9680-42D3-8C67-44AEFD282C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527196A7-9680-42D3-8C67-44AEFD282C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527196A7-9680-42D3-8C67-44AEFD282C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527196A7-9680-42D3-8C67-44AEFD282C94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
